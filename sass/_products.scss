@@ -13,8 +13,8 @@ body {
 
 /* Header Styles */
 .header_style {
-    margin: 0 auto; /* Center the header */
-    max-width: 1200px; /* Adjust max width as needed */
+    margin: 0 auto; 
+    max-width: 1200px; 
 }
 
 /* Row Styles */
@@ -24,15 +24,15 @@ body {
 }
 
 .brief_container {
-    margin: 0 auto; /* Center the container */
-     /* Adjust max width as needed */
+    margin: 0 auto; 
+     
 }
 
 /* Column Styles */
 .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
-    padding-left: 15px; /* Adjust padding for consistent spacing */
+    padding-left: 15px; 
 }
 
 .col-lg-3 h3 {
@@ -63,7 +63,7 @@ body {
 /* Description Styles */
 .description {
     margin-top: 130px;
-    padding: 0 15px; /* Adjust padding for consistent spacing */
+    padding: 0 15px; 
 }
 
 .description p {
@@ -75,10 +75,10 @@ body {
 
 /* Varieties Box Styles */
 .varieties-box {
-    margin: 0 auto; /* Center the box horizontally */
+    margin: 0 auto; 
     border: 1px solid dimgray;
     padding: 15px;
-    max-width: 1000px; /* Adjust max width as needed */
+    max-width: 1000px; 
     margin-top: 30px;
 }
 
@@ -117,16 +117,16 @@ body {
 
 /* Related Products Styles */
 .related-products {
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto; 
     border: 1px solid dimgray;
     padding: 15px;
-    max-width: 1050px; /* Adjust max width as needed */
+    max-width: 1050px; 
     margin-top: 20px;
 }
 
 .returnBackToProducts {
     color: black;
-    margin-left: 15px; /* Adjust for consistent spacing */
+    margin-left: 15px; 
 }
 
 .related-heading {
@@ -168,12 +168,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px; /* Adjust padding for navbar */
+    padding: 10px 15px; 
 }
 
 .main_menu .navbar-brand img {
-    max-width: 100px; /* Adjust max width of the logo */
-    margin-left: 5px; /* Adjust logo margin */
+    max-width: 100px; 
+    margin-left: 5px; 
 }
 
 .main_menu .navbar-nav {
@@ -184,7 +184,7 @@ body {
 }
 
 .main_menu .navbar-nav .nav-link {
-    margin: 0 10px; /* Adjust spacing between links */
+    margin: 0 10px; 
     font-size: 0.95rem;
 }
 
@@ -197,13 +197,13 @@ body {
     margin-left: auto;
     display: flex;
     align-items: center;
-    order: 1; /* Ensure the menu button is to the right */
+    order: 1; 
 }
 
 .menu_btn .single_page_btn {
     border: 1px solid #000;
     border-radius: 20px;
-    margin-left: 10px; /* Adjust margin between buttons */
+    margin-left: 10px; 
     white-space: nowrap;
 }
 
@@ -214,12 +214,12 @@ body {
         align-items: center;
         justify-content: space-between;
         height: auto;
-        padding: 15px 10px; /* Adjust padding for navbar */
+        padding: 15px 10px; 
     }
 
     .main_menu .navbar-brand img {
-        max-width: 80%; /* Adjust max width of the logo */
-        margin-top: 0; /* Reset logo margin */
+        max-width: 80%; 
+        margin-top: 0; 
     }
 
     .main_menu .navbar-toggler {
@@ -245,7 +245,7 @@ body {
     }
 
     .menu_btn {
-        margin-left: 10px; /* Adjust margin between buttons */
+        margin-left: 10px; 
     }
 
     .brief_container .big_photo_align {
@@ -266,12 +266,10 @@ body {
 
 /* Mobile Specific Styles */
 @media (max-width: 768px) {
-    /* Adjustments for smaller screens */
     .main_menu {
-      padding: 15px 5px; /* Reduce top and bottom padding */
-      height: 80px; /* Adjust the height of the navbar */
-      /* justify-content: space-around; Ensure items are spaced correctly */
-      align-items: center; /* Center items vertically */
+      padding: 15px 5px; 
+      height: 80px; 
+      align-items: center; 
       margin-right: -150px auto;
     }
   .big-photo{
@@ -283,39 +281,39 @@ body {
   }
   
     .main_menu .navbar-brand img {
-      max-width: 70px; /* Reduce logo size for smaller screens */
-      margin-top: 50px; /* Center the image horizontally */
+      max-width: 70px; 
+      margin-top: 50px;
     }
   
     .main_menu .navbar-toggler {
       margin-bottom: 110px;
-      margin-left: auto; /* Move the toggler icon to the right */
+      margin-left: auto; 
       align-items: center;
       justify-content: center;
-       display: flex; //*Ensure hamburger icon is visible */
+       display: flex; 
     }
   
     .main_menu .navbar-nav {
       
-      flex-direction: column; /* Display items vertically */
-      align-items: center; /* Center items horizontally */
-      text-align: center;  /* Align items to the right */
+      flex-direction: column; 
+      align-items: center;
+      text-align: center; 
       ;
     }
     .main_menu .navbar-collapse {
-      margin-top: 5px; /* Reduce margin to decrease space */
+      margin-top: 5px; 
       position: absolute;
-      top: 10px; /* Position dropdown menu below the toggler */
-      left: 0; /* Align dropdown menu with the toggler */
-      width: 100%; /* Make dropdown menu full width */
-      background-color: #fff; /* Set background color */
-      border: 1px solid #ccc; /* Add border for dropdown menu */
-      border-top: none; /* Remove top border to align with toggler */
+      top: 10px; 
+      left: 0; 
+      width: 100%; 
+      background-color: #fff; 
+      border: 1px solid #ccc; 
+      border-top: none;
     } .main_menu .navbar-collapse {
-      margin-top: 5px; /* Add margin to separate the collapsed items */
+      margin-top: 5px; 
     }
     .menu_btn {
-      margin-left: 10px; /* Add margin to separate the menu button */
+      margin-left: 10px; 
     }
   }
   
@@ -388,38 +386,37 @@ body {
 }
 
 @media (max-width: 768px) {
-    /* Adjustments for smaller screens */
+    
     .big-photo {
       width: 100%;
       max-width: 100%;
       height: auto;
       object-fit: cover;
-      /* Ensure the big photo fits well on mobile screens */
+     
     }
 
     .big_photo_align {
       text-align: center;
       margin-bottom: 20px;
-      /* Add spacing below the image */
+     
     }
   
     .description {
       margin-top: 20px;
-      /* Increase top margin for better spacing */
+      
       text-align: justify;
       padding: 0 15px;
-      /* Add padding for better readability */
+    
     }
   
     .varieties-box,
     .related-products {
       margin-top: 40px;
-      /* Increase top margin for better separation */
+     
     }
   
     .varieties-box ol {
       padding-left: 15px;
-      /* Adjust padding for better alignment */
       padding-right: 15px;
     }
   
@@ -427,9 +424,8 @@ body {
     .related-heading,
     .varieties-box .grades {
       font-size: 1.5rem;
-      /* Reduce font size for better readability */
       margin-bottom: 15px;
-      /* Add bottom margin for better separation */
+      
     }
   }
   
