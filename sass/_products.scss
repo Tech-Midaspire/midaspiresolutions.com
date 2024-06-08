@@ -1,0 +1,498 @@
+/* General Styles for Improved Responsiveness */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.025rem;
+    // overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Header Styles */
+.header_style {
+    margin: 0 auto; /* Center the header */
+    max-width: 1200px; /* Adjust max width as needed */
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brief_container {
+    margin: 0 auto; /* Center the container */
+     /* Adjust max width as needed */
+}
+
+/* Column Styles */
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px; /* Adjust padding for consistent spacing */
+}
+
+.col-lg-3 h3 {
+    text-align: center;
+    font-size: large;
+}
+
+/* Flexbox for home navigation */
+.home_flex {
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+
+.home_flex a {
+    color: #000;
+    font-size: medium;
+}
+
+
+/* Image Styles */
+.big-photo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Description Styles */
+.description {
+    margin-top: 130px;
+    padding: 0 15px; /* Adjust padding for consistent spacing */
+}
+
+.description p {
+    padding-top: 15px;
+    color: #000;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* Varieties Box Styles */
+.varieties-box {
+    margin: 0 auto; /* Center the box horizontally */
+    border: 1px solid dimgray;
+    padding: 15px;
+    max-width: 1000px; /* Adjust max width as needed */
+    margin-top: 30px;
+}
+
+.varieties-box h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+}
+
+.varieties-box .grades {
+    font-size: 35px;
+    font-weight: bold;
+    color: #010a44;
+}
+
+.varieties-box ol {
+    padding-left: 40px;
+    padding-right: 20px;
+    color: black;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+.bold_heading {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.varieties-box ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* Related Products Styles */
+.related-products {
+    margin: 0 auto; /* Center the container */
+    border: 1px solid dimgray;
+    padding: 15px;
+    max-width: 1050px; /* Adjust max width as needed */
+    margin-top: 20px;
+}
+
+.returnBackToProducts {
+    color: black;
+    margin-left: 15px; /* Adjust for consistent spacing */
+}
+
+.related-heading {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #010a44;
+}
+
+.related-products h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Product Styles */
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.product h3 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.main_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px; /* Adjust padding for navbar */
+}
+
+.main_menu .navbar-brand img {
+    max-width: 100px; /* Adjust max width of the logo */
+    margin-left: 5px; /* Adjust logo margin */
+}
+
+.main_menu .navbar-nav {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.main_menu .navbar-nav .nav-link {
+    margin: 0 10px; /* Adjust spacing between links */
+    font-size: 0.95rem;
+}
+
+.nav-item {
+    font-weight: 900;
+    font-size: 1.025rem;
+}
+
+.main_menu .menu_btn {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    order: 1; /* Ensure the menu button is to the right */
+}
+
+.menu_btn .single_page_btn {
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-left: 10px; /* Adjust margin between buttons */
+    white-space: nowrap;
+}
+
+/* iPad Specific Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main_menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        padding: 15px 10px; /* Adjust padding for navbar */
+    }
+
+    .main_menu .navbar-brand img {
+        max-width: 80%; /* Adjust max width of the logo */
+        margin-top: 0; /* Reset logo margin */
+    }
+
+    .main_menu .navbar-toggler {
+        margin-left: auto;
+        display: flex;
+    }
+
+    .main_menu .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main_menu .navbar-collapse {
+        margin-top: 5px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+
+    .menu_btn {
+        margin-left: 10px; /* Adjust margin between buttons */
+    }
+
+    .brief_container .big_photo_align {
+        display: flex;
+        align-items: center;
+    }
+
+    .brief_container .big-photo {
+        max-width: 50vmax;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .description {
+        vertical-align: middle;
+    }
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .main_menu {
+      padding: 15px 5px; /* Reduce top and bottom padding */
+      height: 80px; /* Adjust the height of the navbar */
+      /* justify-content: space-around; Ensure items are spaced correctly */
+      align-items: center; /* Center items vertically */
+      margin-right: -150px auto;
+    }
+  .big-photo{
+    width: 80%;
+    
+  }
+  .big_photo_align{
+    text-align: center;
+  }
+  
+    .main_menu .navbar-brand img {
+      max-width: 70px; /* Reduce logo size for smaller screens */
+      margin-top: 50px; /* Center the image horizontally */
+    }
+  
+    .main_menu .navbar-toggler {
+      margin-bottom: 110px;
+      margin-left: auto; /* Move the toggler icon to the right */
+      align-items: center;
+      justify-content: center;
+       display: flex; //*Ensure hamburger icon is visible */
+    }
+  
+    .main_menu .navbar-nav {
+      
+      flex-direction: column; /* Display items vertically */
+      align-items: center; /* Center items horizontally */
+      text-align: center;  /* Align items to the right */
+      ;
+    }
+    .main_menu .navbar-collapse {
+      margin-top: 5px; /* Reduce margin to decrease space */
+      position: absolute;
+      top: 10px; /* Position dropdown menu below the toggler */
+      left: 0; /* Align dropdown menu with the toggler */
+      width: 100%; /* Make dropdown menu full width */
+      background-color: #fff; /* Set background color */
+      border: 1px solid #ccc; /* Add border for dropdown menu */
+      border-top: none; /* Remove top border to align with toggler */
+    } .main_menu .navbar-collapse {
+      margin-top: 5px; /* Add margin to separate the collapsed items */
+    }
+    .menu_btn {
+      margin-left: 10px; /* Add margin to separate the menu button */
+    }
+  }
+  
+
+/* Small Mobile Specific Styles */
+@media (max-width: 576px) {
+    .main_menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: fit-content;
+    }
+
+    .main_menu .navbar-nav {
+        flex-direction: row;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .main_menu .nav-item {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .main_menu .menu_btn {
+        order: 1;
+        margin-left: auto;
+    }
+
+    .big-photo {
+        max-width: 100%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-lg-6 {
+        max-width: 100%;
+    }
+
+    .home_flex {
+        margin-left: -29px;
+    }
+
+    .description {
+        margin-top: 5px;
+        text-align: justify;
+    }
+
+    .varieties-box h2,
+    .related-heading,
+    .varieties-box .grades {
+        font-size: 20px;
+    }
+
+    .product {
+        margin-bottom: 15px;
+    }
+
+    .product h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section_tittle {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .big-photo {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      /* Ensure the big photo fits well on mobile screens */
+    }
+
+    .big_photo_align {
+      text-align: center;
+      margin-bottom: 20px;
+      /* Add spacing below the image */
+    }
+  
+    .description {
+      margin-top: 20px;
+      /* Increase top margin for better spacing */
+      text-align: justify;
+      padding: 0 15px;
+      /* Add padding for better readability */
+    }
+  
+    .varieties-box,
+    .related-products {
+      margin-top: 40px;
+      /* Increase top margin for better separation */
+    }
+  
+    .varieties-box ol {
+      padding-left: 15px;
+      /* Adjust padding for better alignment */
+      padding-right: 15px;
+    }
+  
+    .varieties-box h2,
+    .related-heading,
+    .varieties-box .grades {
+      font-size: 1.5rem;
+      /* Reduce font size for better readability */
+      margin-bottom: 15px;
+      /* Add bottom margin for better separation */
+    }
+  }
+  
+  
+  /* Small Mobile Specific Styles */
+  @media (max-width: 576px) {
+    .main_menu {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: fit-content;
+    }
+  
+    .main_menu .navbar-nav {
+      flex-direction: row;
+      flex: 1;
+      justify-content: flex-end;
+    }
+  
+    .main_menu .nav-item {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  
+    .main_menu .menu_btn {
+      order: 1;
+      margin-left: auto;
+    }
+  
+    .big-photo {
+      max-width: 100%;
+    }
+  
+    .row {
+      display: block;
+    }
+  
+    .col-lg-6 {
+      max-width: 100%;
+    }
+  
+    .home_flex {
+      margin-left: -29px;
+    }
+  
+    .description {
+      margin-top: 5px;
+      text-align: justify;
+    }
+  
+    .varieties-box h2,
+    .related-heading,
+    .varieties-box .grades {
+      font-size: 20px;
+    }
+  
+    .product {
+      margin-bottom: 15px;
+    }
+  
+    .product h3 {
+      font-size: 16px;
+    }
+  }
+  
+ 
