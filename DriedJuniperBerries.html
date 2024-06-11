@@ -28,16 +28,19 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- additional CSS -->
     <link rel="stylesheet" href="css/products.css">
+    <script src="path/to/jquery.js"></script>
+    <script src="path/to/slick.js"></script>
 </head>
 
 <body>
     <!--::header part start::-->
-    <header class="main_menu">
-        <div class="container">
-            <div class="row align-items-center">
+    <header class="main_menu home_menu">
+        <div class="footer_container">
+            <div class="footer_row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img class="logo" src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img\Midaspire New Logo.png" style="width:110px" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -47,54 +50,57 @@
                         <div class="collapse navbar-collapse main-menu-item justify-content-end"
                             id="navbarSupportedContent">
                             <ul class="navbar-nav">
+                                <!--<li class="nav-item">-->
+                                <!--    <a class="nav-link" href="index.html">Home</a>-->
+                                <!--</li>-->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="food_menu.html">Menu</a>
+                                    <a class="nav-link" href="food_menu.html">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="chefs.html">Chefs</a>
+                                    <a class="nav-link" href="about.html">Our Story</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Blog
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="blog.html">Blog</a>
-                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
-                                        <a class="dropdown-item" href="elements.html">Elements</a>
-                                    </div>
-                                </li>
+
+                                <!--<li class="nav-item">-->
+                                <!--    <a class="nav-link" href="chefs.html">Blogs & Media</a>-->
+                                <!--</li>-->
+                                <!--<li class="nav-item">-->
+                                <!--    <a class="nav-link" href="chefs.html">Careers</a>-->
+                                <!--</li>-->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="chefs.html">Contact Us</a>
                                 </li>
+                                <!-- <li class="nav-item dropdown">-->
+                                <!--    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                                <!--        Blog-->
+                                <!--    </a>-->
+                                <!--    <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+                                <!--        <a class="dropdown-item" href="blog.html">Blog</a>-->
+                                <!--        <a class="dropdown-item" href="single-blog.html">Single blog</a>-->
+                                <!--        <a class="dropdown-item" href="elements.html">Elements</a>-->
+                                <!--    </div>-->
+                                <!--</li>-->
+                                <!--<li class="nav-item">-->
+                                <!--    <a class="nav-link" href="contact.html">Contact</a>-->
+                                <!--</li> -->
                             </ul>
                         </div>
                         <div class="menu_btn">
-                            <a href="#" class="single_page_btn d-none d-sm-block">book a tabel</a>
+                            <a href="#" class="btn_1 d-none d-sm-block">Connect</a>
                         </div>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <!-- Header part end-->
 
     <!-- breadcrumb start-->
-    <section class="breadcrumb breadcrumb_bg">
+    <section class="breadcrumb ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner text-center">
                         <div class="breadcrumb_iner_item">
-                            <h2>Dried Juniper Berries
-
-                            </h2>
+                            <h2>Dried Juniper Berries</h2>
                         </div>
                     </div>
                 </div>
@@ -108,38 +114,19 @@
     <section class="food_menu gray_bg">
         <div class="container">
             <div class="row justify-content-between first_row">
-                <div class="section_tittle section_space">
-                    <div class="home_flex first_home_link">
-                        <a href="#" class="home_link"><span class="home_link_dried_black_current">Home</span></a>
-                        <span class="separator">&nbsp;&gt;&nbsp;</span>
-                        <span class="page_title">Dried Juniper Berries
 
-                        </span>
-                    </div>
-                    <!-- Add space between the two divs -->
-                    <div class="space_between"></div>
-                    <div class="home_flex">
-                        <a href="#" class="home_link">Home</a>
-                        <span class="separator">»</span>
-                        <a href="#" class="products_link">products</a>
-                        <span class="separator">»</span>
-                        <span class="page_title">Dried Juniper Berries
-
-                        </span>
-                    </div>
-                </div>
             </div>
             <div class="row brief_container">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active single-member" id="Special" role="tabpanel"
                         aria-labelledby="Special-tab">
                         <div class="row big_photo_align">
-                            <div class="col-lg-6 d-flex  align-items-center">
-                                <img src="img/dry_fruits/Dried-juniper-berry-midaspire-jpg.webp" class="big-photo"
-                                    alt="Big Photo">
+                            <div class="big_image d-flex  align-items-center">
+                                <img src="img/dry_fruits/Dried-juniper-berry-midaspire-jpg.webp" class="big-photo" alt="Big Photo">
                             </div>
                             <div class="col-lg-6">
                                 <div class="description">
+                                    <h1 class="product_heading">Dried Juniper Berries</h1>
                                     <p>Dried juniper berries are a flavorful and aromatic berry commonly used in the
                                         culinary industry. These small, dark blue berries have a pungent, pine-like
                                         flavor with a slightly sweet and spicy undertone.</p>
@@ -148,7 +135,13 @@
                                         a distinct botanical flavor to the popular spirit.</p>
                                     <p>Our dried juniper berries are sourced from high-quality suppliers and are
                                         carefully dried to preserve their rich flavor and aroma.</p>
+
+                                    <div class="button-group">
+                                        <button type="button" class="btn btn-primary">Button 1</button>
+                                        <button type="button" class="btn btn-primary">Button 2</button>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -175,120 +168,197 @@
                         less flavorful than fresh berries but can still be used in cooking and other applications.</li>
                 </ol>
             </div>
-            <div class="related-products ">
-                <span class="related-heading">See also different:</span>
-                <div class="row  products_bold">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="product">
-                            <a href="DriedGooseberry.html">
-                                <img src="img/dry_fruits/dried-gooseberry.webp" alt="Product 1">
-                                <h3 class="products_bold"><a href="DriedGooseberry.html">Dried Gooseberry</a></h3>
-                            </a>
-                        </div>
+            <h1 class="related-heading">See also different:</h1>
+            <div class="related-products">
+
+                <div class="carousel">
+                    <div class="product">
+                        <a href="DriedSeaBuckthornBerries.html">
+                            <img src="img/dry_fruits/dried-sea-buckthorn-berries-midaspire-1-jpg.webp"
+                                alt="Product 1">
+                            <h3 class="products-bold"><a href="DriedSeaBuckthornBerries.html">Dried Sea Buckthorn
+                                    Berries</a></h3>
+                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="product">
-                            <a href="DriedRaspberry.html">
-                                <img src="img/dry_fruits/dried-raspberry.webp" alt="Product 2">
-                                <h3 class="products_bold"><a href="DriedRaspberry.html">Dried Raspberries</a></h3>
-                            </a>
-                        </div>
+                    <div class="product">
+                        <a href="DriedGooseberry.html">
+                            <img src="img/dry_fruits/dried-gooseberry.webp" alt="Product 2">
+                            <h3 class="products-bold"><a href="DriedGooseberry.html">Dried Gooseberries</a>
+                            </h3>
+                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="product">
-                            <a href="driedBlackCurrants.html">
-                                <img src="img/dry_fruits/dried-black-currants.webp" alt="Product 3">
-                                <h3 class="products_bold"> <a href="driedBlackCurrants.html">Dried Black Currants</a></h3>
-                            </a>
-                        </div>
+                    <div class="product">
+                        <a href="DriedMulberries.html">
+                            <img src="img/dry_fruits/dried-mulberries.webp" alt="Product 3">
+                            <h3 class="products-bold"><a href="DriedMulberries.html">Dried Mulberries</a></h3>
+                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="product">
-                            <a href="DriedBlueBerries.html">
-                                <img src="img/dry_fruits/dried-blueberry.webp" alt="Product 4">
-                                <h3 class="products_bold"><a href="DriedBlueBerries.html">Dried Blueberries</a></h3>
-                            </a>
-                        </div>
+                    <div class="product">
+                        <a href="DriedStrawBerries.html">
+                            <img src="img/dry_fruits/strawberry-dried-midaspire.webp" alt="Product 4">
+                            <h3 class="products-bold"><a href="DriedStrawBerries.html">Dried strawberries</a></h3>
+                        </a>
                     </div>
+                    <div class="product">
+                        <a href="DriedBlueBerries.html">
+                            <img src="img/dry_fruits/dried-blueberry.webp" alt="Product 5">
+                            <h3 class="products-bold"><a href="DriedBlueBerries.html">Dried Blueberries</a></h3>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="driedBlackCurrants.html">
+                            <img src="img/dry_fruits/dried-black-currants.webp" alt="Product 6">
+                            <h3 class="products-bold"><a href="driedBlackCurrants.html"> BlackCurrants</a></h3>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="DriedRaspberry.html">
+                            <img src="img/dry_fruits/dried-raspberry.webp" alt="Product 7">
+                            <h3 class="products-bold "><a href="DriedRaspberry.html"> DriedRaspberry</a></h3>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="DriedGojiberries.html">
+                            <img src="img/dry_fruits/dried-gojiberries.webp" alt="Product 8">
+                            <h3 class="products-bold"><a href="DriedGojiberries.html"> Dried-Gojiberries</a></h3>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="DriedCranberries.html">
+                            <img src="img/dry_fruits/dried-cranberries.webp" alt="Product 9">
+                            <h3 class="products-bold"><a href="DriedCranberries.html"> Dried Cranberries</a></h3>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-            <a class="returnBackToProducts " href="products.html">&lt;&lt; return to products</a>
+
+
         </div>
     </section>
     <!-- food_menu part end-->
     <!--::chefs_part end::-->
 
-    <!-- intro_video_bg start-->
-    <section class="intro_video_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro_video_iner text-center">
-                        <h2>Expect The Best</h2>
-                        <div class="intro_video_icon">
-                            <a id="play-video_1" class="video-play-button popup-youtube"
-                                href="https://www.youtube.com/watch?v=pBFQdxA-apI">
-                                <span class="ti-control-play"></span>
-                            </a>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-6 col-lg-12 form_fit">
+                <form class="form-container">
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="contact">Contact No</label>
+                            <input type="text" class="form-control" id="contact"
+                                placeholder="Enter your contact number">
                         </div>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" rows="3"
+                            placeholder="Enter a short description"></textarea>
+                    </div>
+                    <div class="text-center"> <!-- Add this class -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
             </div>
+            <div class="col-lg-6 d-none d-lg-block align-items-center text-center">
+                <button type="submit" class="btn btn-primary">Contact us</button>
+            </div>
+
         </div>
-    </section>
-    <!-- intro_video_bg part end-->
+    </div>
+
+
+
 
     <!-- footer part start-->
     <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-sm-6 col-md-4">
+        <div class="footer_container">
+            <div class="footer_row">
+                <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
                     <div class="single-footer-widget footer_1">
-                        <h4>About Us</h4>
-                        <p>Heaven fruitful doesn't over for these theheaven fruitful doe over days
-                            appear creeping seasons sad behold beari ath of it fly signs bearing
-                            be one blessed after.</p>
+                        <p>About Us</p>
+                        <p>Products</p>
+                        <p>Careers</p>
+                        <p>Blogs & Media</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                        <p>Disclaimer</p>
+                        <p>Contact Us</p>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6 col-md-4">
+                <div class="col-xl-3 col-sm-6 col-md-2 col-lg-3">
                     <div class="single-footer-widget footer_2">
-                        <h4>Important Link</h4>
+                        <b>INDIA</b>
                         <div class="contact_info">
                             <ul>
-                                <li><a href="#">WHMCS-bridge</a></li>
-                                <li><a href="#"> Search Domain</a></li>
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Shopping Cart</a></li>
-                                <li><a href="#"> Our Shop</a></li>
+                                <li>Midaspire Solutions Pvt. Ltd. Level 14-15, 15, Concorde Towers, UB City, Vittal
+                                    Mallya Road Bengaluru, Karnataka - 560001</li>
+                                <li><b>INDIA</b></li>
+                                <li>406, Pyramid Square,
+                                    Sector 70-A, Astaire Gardens,
+                                    Gurugram, Haryana - 122101</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6 col-md-4">
+                <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
                     <div class="single-footer-widget footer_2">
-                        <h4>Contact us</h4>
+                        <b>UAE</b>
                         <div class="contact_info">
-                            <p><span> Address :</span>Hath of it fly signs bear be one blessed after </p>
-                            <p><span> Phone :</span> +2 36 265 (8060)</p>
-                            <p><span> Email : </span>info@colorlib.com </p>
+                            <ul>
+                                <li>Midaspire Solutions Pvt. Ltd.
+                                    No. 1206, 12th Floor,
+                                    Buisness Bay, Burlington Tower,
+                                    Dubai</li>
+                                <b>AFRICA</b>
+
+                                <li>Midaspire Solutions Pvt. Ltd 15, Malamah Thomas St., By Siaka Steven
+                                    St. P.O Code 22, Freetown,
+                                    Sierra Leonne</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-8 col-md-6">
+                <div class="col-xl-3 col-sm-6 col-md-4 col-lg-3">
                     <div class="single-footer-widget footer_3">
-                        <h4>Newsletter</h4>
-                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping seas</p>
-                        <form action="#">
-                            <div class="form-group">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder='Email Address'
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
-                                    <div class="input-group-append">
-                                        <button class="btn" type="button"><i class="fas fa-paper-plane"></i></button>
-                                    </div>
-                                </div>
+                        <b>Work Inquiries</b>
+                        <ul>
+                            <li>
+                                Interested in working with us? support@midaspiresolutions.com
+                            </li>
+                        </ul>
+
+                        <b>Career</b>
+                        <ul>
+                            <li>Looking for a job opportunity? <a>See open positions</a></li>
+                        </ul>
+
+                        <div class="social-media-links">
+                            <b>Follow Us on Social Media</b>
+                            <div class="input-group mb-3">
+                                <a href="https://www.linkedin.com" target="_blank" class="btn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank" class="btn">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com" target="_blank" class="btn">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.youtube.com" target="_blank" class="btn">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
                             </div>
-                        </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -297,26 +367,19 @@
                     <div class="col-lg-8">
                         <p class="footer-text m-0">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
-                            template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            &copy;2024, Made with passion by Midaspire.
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <div class="copyright_social_icon text-right">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="ti-dribbble"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <p>All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- footer part end-->
 
     <!-- jquery plugins here-->
     <!-- jquery -->
@@ -339,6 +402,25 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
 
 </html>
