@@ -7,6 +7,20 @@ body {
   color: #000;
 
 }
+.related-products .row {
+  margin: 0px 0px;
+  /* Center the container */
+
+}
+
+.products_bold{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.product_heading {
+  font-weight: 700;
+}
 
 p {
   color: #010a44
@@ -18,11 +32,7 @@ p {
 }
 
 /* Container Styles */
-.container {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 
-}
 
 /* First Home Link Styles */
 .first_home_link {
@@ -49,6 +59,7 @@ p {
   align-items: center;
   /* overflow: hidden; */
   width: 100%;
+
 }
 
 /* Brief Container Styles */
@@ -61,7 +72,7 @@ p {
 .col-lg-6 {
   flex: 0 0 50%;
   max-width: 50%;
-  padding-left: 15px;
+  
 }
 
 .col-lg-3 h3 {
@@ -73,8 +84,7 @@ p {
 .food_menu {
   /* padding: 40px; */
   width: 100%;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+ padding: 80px 0 0 0;
 }
 
 /* Flexbox for Home Navigation Styles */
@@ -90,10 +100,14 @@ p {
 
 /* Image Styles */
 .big-photo {
-  width: 100%;
+  width: 70%;
   max-width: 500px;
+  ;
   height: auto;
   object-fit: cover;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding:10px;
 }
 
 /* Description Styles */
@@ -116,6 +130,8 @@ p {
   border: 1px solid dimgray;
   padding: 15px;
   margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .varieties-box h2 {
@@ -130,6 +146,7 @@ p {
   font-size: 35px;
   font-weight: bold;
   color: #010a44;
+  padding-left: 20px;
 }
 
 .varieties-box ol {
@@ -137,7 +154,7 @@ p {
   padding-right: 40px;
   color: black;
   text-align: justify;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .bold_heading {
@@ -155,11 +172,12 @@ p {
 .related-products {
   margin: 0 auto;
   border: 1px solid dimgray;
-  padding: 25px 25px;
-  max-width: 1289px;
-  margin-top: 40px;
+  padding: 0px 50px;
+  max-width: 100%;
+  margin-top: 0px;
   margin-bottom: 20px;
-
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .returnBackToProducts {
@@ -174,6 +192,7 @@ p {
   font-size: 3.25rem;
   font-weight: bold;
   color: #010a44;
+  padding-top: 40px;
 }
 
 .related-products h2 {
@@ -196,6 +215,9 @@ p {
 
 .product h3 {
   margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
 
 .product h3 a {
@@ -205,7 +227,7 @@ p {
 
 .product h3 a:hover {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Adjustments for smaller screens */
@@ -213,8 +235,9 @@ p {
 @media (max-width: 768px) {
 
   .big-photo {
-    width: 100%;
+    width:60%;
     max-width: 100%;
+    border: 2px solid black;
 
   }
 
@@ -230,12 +253,22 @@ p {
     margin-bottom: 20px;
 
   }
+.related-products .row {
+  margin: 0px 0px;
+  /* Center the container */
 
+}
+
+.products_bold{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
 
   .description {
     list-style-position: inside;
     margin-top: 20px;
-    text-align: justify;
+    
     padding: 0 15px;
   }
 
@@ -254,6 +287,7 @@ p {
   .varieties-box .grades {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    
   }
 }
 
@@ -262,11 +296,15 @@ p {
   .big_photo_align {
     text-align: center;
   }
-
+.home_flex{
+  padding-left: 100px;
+}
   .big-photo {
     width: 80%;
+    
     display: block;
     margin: 0 auto;
+    border: 2px solid black;
   }
 
   .container {
@@ -288,6 +326,8 @@ p {
 
   .row {
     margin: auto;
+    /* padding-left: 25px;
+    padding-right: 25px; */
   }
 
   .varieties-box,
@@ -317,8 +357,9 @@ p {
 
   .section_tittle {
     margin-bottom: 30px;
-    margin-left: 37px;
+    
     font-size: large;
+
   }
 
   .brief_container,
@@ -347,8 +388,14 @@ p {
 
 @media only screen and (min-width: 1200px) and (max-width: 3640px) {
   .container {
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
+  }
+  .home_flex{
+    padding-left: 100px;
+  }
+  .big_image{
+    padding-left: 130px;
   }
 }
 
@@ -365,6 +412,7 @@ p {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+    border: 2px solid black;
   }
 
   .big_photo_align {
@@ -374,7 +422,7 @@ p {
 
   .description {
     margin-top: 20px;
-    text-align: justify;
+    
     padding: 0 15px;
   }
 
@@ -393,9 +441,108 @@ p {
   .varieties-box .grades {
     font-size: 1.5rem;
     margin-bottom: 15px;
+
   }
 }
-.related-products .row{
-  margin: 0px 0px; /* Center the container */
- 
+
+
+/* CSS code to style the form */
+.form-container {
+  border: 2px solid black;
+  margin-top: 50px;
+  
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: auto; 
+  padding: 10px 20px; 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container-fluid {
+  width: 100%;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  /* margin-right: auto; */
+}
+.form-group {
+  border-radius: 20px;
+}
+@media (min-width: 992px) {
+  .form_fit {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 50%;
+      
+      padding-left: 0; 
+       padding-right: 0;
+  }
+  .row{
+    margin: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* padding-left: 15px; 
+    padding-right: 15px; */
+    padding: 0;
+  }
+  .row {
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+  .footer_container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+.footer_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* overflow: hidden; */
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  
+  margin-top: 20px;
+}
+
+.button-group .btn {
+  margin-right: 10px;
 }
