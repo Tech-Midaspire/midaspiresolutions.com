@@ -6968,7 +6968,7 @@ h6 {
 
 /* line 26, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-  color: #fff;
+  color: white;
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -7015,7 +7015,7 @@ h6 {
 
 /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_footer.scss */
 .footer-area {
-  background-color: #f9f8f3;
+  background-color: white;
   padding: 100px 0px 25px;
 }
 
@@ -7035,7 +7035,7 @@ h6 {
 
 /* line 13, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_footer.scss */
 .footer-area .single-footer-widget p {
-  color: #555555;
+  color: white;
   font-size: 15px;
   color: #555555;
   line-height: 1.8;
@@ -7291,4 +7291,14 @@ h6 {
   color: #969697;
 }
 
+
+@media (min-width: 992px) {
+  .col-lg-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
